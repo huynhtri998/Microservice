@@ -14,6 +14,7 @@ import org.springframework.data.jpa.domain.support.AuditingEntityListener;
 
 import java.time.LocalDateTime;
 
+//Danh dau class nay la class cha cho class con thua ke thuoc tinh khi tao bang
 @MappedSuperclass
 @EntityListeners(AuditingEntityListener.class)
 @Getter @Setter @ToString
